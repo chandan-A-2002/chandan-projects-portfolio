@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base:"chandan-projects-portfolio"
+  base:"/chandan-projects-portfolio"
 }));
