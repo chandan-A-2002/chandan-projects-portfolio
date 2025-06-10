@@ -1,11 +1,10 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { 
   Code, 
   Calculator, 
   FileText, 
-  PresentationChart, 
+  Presentation, 
   Building2, 
   ClipboardCheck,
   Ruler,
@@ -28,7 +27,7 @@ export const Skills = () => {
     },
     {
       title: "Project Management",
-      icon: <PresentationChart className="h-6 w-6" />,
+      icon: <Presentation className="h-6 w-6" />,
       skills: ["Project Planning", "Resource Management", "Timeline Coordination", "Team Leadership"],
       color: "bg-purple-500"
     },
